@@ -20,7 +20,7 @@
     "managed_image_name": "MyUbuntuImage",
 
     "azure_tags": {
-        "dept": "engineering",
+        "org": "NOTTECHLAB",
         "task": "image deployment"
     },
 
