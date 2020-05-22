@@ -34,7 +34,7 @@
       "sudo apt-get -y install nodejs",
       "sudo apt install npm",
       "git clone https://github.com/Jkarage/work_sample_1.git",
-      "cd work_sapmle_1",
+      "cd work_sample_1",
       "cd bucketlist-react",
       "sudo npm install",
       "sudo npm install -g gulp-cli",
