@@ -31,6 +31,8 @@
     "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'",
     "inline": [
       "sudo apt-get -y update",
+      "curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh",
+      "sudo bash nodesource_setup.sh",
       "sudo apt-get -y install nodejs",
       "sudo apt install npm",
       "git clone https://github.com/Jkarage/work_sample_1.git",
