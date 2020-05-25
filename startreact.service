@@ -1,0 +1,9 @@
+
+   [Unit]
+   Description=Running react app
+
+   [Service]
+   ExecStart=/usr/bin/start.sh
+
+   [Install]
+   WantedBy=multi-user.target
