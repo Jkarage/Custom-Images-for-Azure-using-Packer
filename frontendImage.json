@@ -36,12 +36,16 @@
       "sudo apt-get -y install nodejs",
       "sudo apt install npm",
       "git clone https://github.com/Jkarage/work_sample_1.git",
-      "cd work_sample_1",
-      "cd bucketlist-react",
+      "cd work_sample_1/bucketlist-react",
       "sudo npm install",
       "sudo npm install -g gulp-cli",
       "sudo gulp sass",
-      "sudo npm build",
+      "git clone https://github.com/Jkarage/Custom-Images-for-Azure-using-Packer.git",
+      "cd Custom-Images-for-Azure-using-Packer",
+      "sudo cp start.sh /usr/bin/start.sh",
+      "sudo cp startreactapp.service /lib/systemd/system/startreactapp.service",
+      "sudo chmod +x /usr/bin/start.sh",
+			"sudo systemctl enable startreactapp.service"
 
       "/usr/sbin/waagent -force -deprovision+user && export HISTSIZE=0 && sync"
     ],
