@@ -45,7 +45,7 @@
       "sudo cp start.sh /usr/bin/start.sh",
       "sudo cp startreactapp.service /lib/systemd/system/startreactapp.service",
       "sudo chmod +x /usr/bin/start.sh",
-			"sudo systemctl enable startreactapp.service"
+      "sudo systemctl enable startreactapp.service"
 
       "/usr/sbin/waagent -force -deprovision+user && export HISTSIZE=0 && sync"
     ],
