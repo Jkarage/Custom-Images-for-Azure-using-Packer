@@ -1,9 +1,11 @@
+[Unit]
+Description=start react-app service
 
-   [Unit]
-   Description=Running react app
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=1
+ExecStart=/bin/bash /usr/bin/start.sh
 
-   [Service]
-   ExecStart=/usr/bin/start.sh
-
-   [Install]
-   WantedBy=multi-user.target
+[Install]
+WantedBy=multi-user.target
